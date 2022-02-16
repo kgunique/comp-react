@@ -1,5 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro&family=Mukta:wght@300&family=Open+Sans+Condensed:wght@700&family=Poppins&family=Rubik:wght@300&family=Shizuru&display=swap");
 .App {
-  text-align: center;
+  color: var(--text-primary);
+  background-color: var(--background);
+  font-size: large;
+  font-weight: bold;
+  padding: 20px;
+  height: calc(100vh - 40px);
+  transition: all 0.5s;
 }
 
 .App-logo {

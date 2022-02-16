@@ -1,0 +1,72 @@
+:root {
+  --primary: blue;
+  --warning: yellow;
+  --danger: red;
+  --success: green;
+  --white: white;
+  --dark: black;
+}
+.btn {
+  font-family: "Maven Pro", sans-serif;
+  font-weight: 400;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 3ms ease;
+}
+.btn:hover {
+  transform: translateY(3px);
+}
+
+/* button styles */
+.btn--primary-solid {
+  background-color: var(--primary);
+  color: var(--white);
+  border: none;
+}
+.btn--warning-solid {
+  background-color: var(--warning);
+  color: var(--dark);
+  border: none;
+}
+.btn--danger-solid {
+  background-color: var(--danger);
+  color: var(--primary);
+  border: none;
+}
+.btn--success-solid {
+  background-color: var(--success);
+  color: var(--white);
+  border: none;
+}
+.btn--primary-outline {
+  background-color: transparent;
+  color: var(--success);
+  border: 2px solid var(--primary);
+}
+.btn--warning-outline {
+  background-color: transparent;
+  color: var(--success);
+  border: 2px solid var(--warning);
+}
+.btn--danger-outline {
+  background-color: transparent;
+  color: var(--success);
+  border: 2px solid var(--danger);
+}
+.btn--success-outline {
+  background-color: transparent;
+  color: var(--dark);
+  border: 2px solid var(--success);
+}
+/* button style ends here */
+
+/* button Sizes */
+
+.btn-medium {
+  padding: 10px 20px;
+  font-size: 18px;
+}
+.btn-large {
+  padding: 20px 30px;
+  font-size: 32px;
+}
